@@ -5,7 +5,7 @@
             "input_path": "file.txt",
             "string_replace": {
                 "old": "replace_me",
-                "new": "it worked!"
+                "new": "$PROJECT_NAME"
             },
             "type": "file_string_replace"
         },
