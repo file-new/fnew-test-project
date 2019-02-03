@@ -1,0 +1,22 @@
+
+{
+    "transforms": [
+        {
+            "input_path": "file.txt",
+            "string_replace": {
+                "old": "replace_me",
+                "new": "it worked!"
+            },
+            "type": "file_string_replace"
+        },
+        {
+            "input_path": "file.txt",
+            "output_path": "new-file.txt",
+            "type": "file_move"
+        },
+        {
+            "input_path": "script.sh",
+            "type": "run_script"
+        }
+    ]
+}
